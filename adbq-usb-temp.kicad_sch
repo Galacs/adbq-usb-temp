@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "683f6451-7bb7-4686-955a-dbaefe964302")
 	(paper "A4")
+	(title_block
+		(title "ADBQ USB temperature sensor")
+		(date "2025-11-14")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -5192,8 +5198,8 @@
 		(uuid b3c5f506-ea94-4692-b715-9de4b2596467)
 	)
 	(rectangle
-		(start 16.256 107.95)
-		(end 45.72 124.714)
+		(start 16.256 109.22)
+		(end 45.72 125.984)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5275,7 +5281,7 @@
 	)
 	(text "Boot button"
 		(exclude_from_sim no)
-		(at 26.924 121.92 0)
+		(at 26.924 123.19 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -5813,7 +5819,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 115.57) (xy 41.91 116.84)
+			(xy 41.91 116.84) (xy 41.91 118.11)
 		)
 		(stroke
 			(width 0)
@@ -6063,7 +6069,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 115.57) (xy 29.21 115.57)
+			(xy 21.59 116.84) (xy 29.21 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6203,7 +6209,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 115.57) (xy 39.37 115.57)
+			(xy 41.91 116.84) (xy 39.37 116.84)
 		)
 		(stroke
 			(width 0)
@@ -8202,7 +8208,7 @@
 		(uuid "65f4f219-c0ea-45d6-9816-17b25fa37892")
 	)
 	(label "BOOT"
-		(at 21.59 115.57 0)
+		(at 21.59 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,7 +9942,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 34.29 115.57 0)
+		(at 34.29 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9944,7 +9950,7 @@
 		(dnp no)
 		(uuid "23ff7626-e3ab-4bf7-a9e0-c2f56869832a")
 		(property "Reference" "SW1"
-			(at 34.29 110.236 0)
+			(at 34.29 111.506 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9952,7 +9958,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 34.29 110.49 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9961,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 110.49 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9970,7 +9976,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 34.29 110.49 0)
+			(at 34.29 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9979,7 +9985,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 34.29 115.57 0)
+			(at 34.29 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14154,7 +14160,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 41.91 116.84 0)
+		(at 41.91 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14163,7 +14169,7 @@
 		(fields_autoplaced yes)
 		(uuid "954a6ed4-1f37-40b8-9d4f-79b798eaa774")
 		(property "Reference" "#PWR08"
-			(at 41.91 123.19 0)
+			(at 41.91 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14172,7 +14178,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 121.92 0)
+			(at 41.91 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14180,7 +14186,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 116.84 0)
+			(at 41.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14189,7 +14195,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 116.84 0)
+			(at 41.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14198,7 +14204,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 116.84 0)
+			(at 41.91 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
