@@ -5509,6 +5509,12 @@
 		(uuid "a9f4fcbe-83c4-4919-9ea2-294216417883")
 	)
 	(junction
+		(at 62.23 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "aa345eeb-2929-4bfa-96ed-bcd34a668177")
+	)
+	(junction
 		(at 148.59 158.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5597,6 +5603,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea2aead8-a998-4fd6-a9a1-e9bf9f1fa766")
+	)
+	(junction
+		(at 59.69 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f454683a-38b0-4b51-84cc-848fc34b0e4e")
+	)
+	(junction
+		(at 57.15 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fbf080d4-aa19-4e83-bf70-3c136992e856")
 	)
 	(no_connect
 		(at 232.41 95.25)
@@ -5716,6 +5734,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 146.05) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e1fa6d-5705-4e66-9775-6bf46abc95fb")
+	)
+	(wire
+		(pts
 			(xy 45.72 161.29) (xy 46.99 161.29)
 		)
 		(stroke
@@ -5763,6 +5791,16 @@
 			(type default)
 		)
 		(uuid "0702ac9e-e63c-4c72-98a5-69a3bbad648e")
+	)
+	(wire
+		(pts
+			(xy 59.69 147.32) (xy 59.69 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ca796f-91d7-4f99-9524-1e6f5c638841")
 	)
 	(wire
 		(pts
@@ -5843,6 +5881,16 @@
 			(type default)
 		)
 		(uuid "11ce4308-5e20-46ed-ac42-8083ac09a7b2")
+	)
+	(wire
+		(pts
+			(xy 57.15 146.05) (xy 59.69 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11d2d077-378c-4e9b-b2a5-46d8ddd28985")
 	)
 	(wire
 		(pts
@@ -5953,6 +6001,16 @@
 			(type default)
 		)
 		(uuid "1e38ceed-2a50-4416-961b-f7092460549b")
+	)
+	(wire
+		(pts
+			(xy 52.07 146.05) (xy 57.15 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1edc505b-bedd-41cd-8928-0b012791a5bf")
 	)
 	(wire
 		(pts
@@ -6093,6 +6151,26 @@
 			(type default)
 		)
 		(uuid "30fa94f4-09ed-4a90-9df8-9c3f04fd71cc")
+	)
+	(wire
+		(pts
+			(xy 62.23 144.78) (xy 62.23 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313c85c2-7323-4027-a749-46b5a2fb4270")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 62.23 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328df158-a26c-4941-9f95-9d1401fc8a67")
 	)
 	(wire
 		(pts
@@ -7103,6 +7181,16 @@
 			(type default)
 		)
 		(uuid "a123199c-2863-4ddd-b638-4e208533eeb5")
+	)
+	(wire
+		(pts
+			(xy 62.23 135.89) (xy 64.77 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a200e651-785f-414d-aeb1-f99b9e0fdd31")
 	)
 	(wire
 		(pts
@@ -9512,72 +9600,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 57.15 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e1daab9-9aa2-4b65-b3db-a70aea96fde9")
-		(property "Reference" "#PWR07"
-			(at 57.15 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 57.15 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d46b01d4-4abb-4813-a98f-9e0d3860e2e0")
-		)
-		(instances
-			(project "adbq-usb-temp"
-				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 245.11 90.17 270)
 		(unit 1)
@@ -10161,6 +10183,113 @@
 			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "L7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pers:H5VU10U")
+		(at 62.23 140.97 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ec5de39-4b0c-4fe5-a39b-45d91e850d8e")
+		(property "Reference" "D4"
+			(at 60.452 138.684 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 59.69 142.2399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Pers:Diode_DFN1006"
+			(at 66.675 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 62.23 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 62.23 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 62.23 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 62.23 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 62.23 140.97 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc211937-84f6-4e0b-a155-5efc00584f04")
+		)
+		(pin "2"
+			(uuid "d0541879-d558-49a3-8626-72ea772292bc")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -12780,6 +12909,72 @@
 			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 59.69 147.32 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60aa846e-d3d6-4806-9f83-7f149a3ef055")
+		(property "Reference" "#PWR029"
+			(at 59.69 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 55.88 148.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 59.69 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85a94e8e-03dd-4088-a76c-4669044a7c6c")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -17314,72 +17509,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 52.07 146.05 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd7f2e0f-4005-4896-8910-f64e1d9fce25")
-		(property "Reference" "#PWR047"
-			(at 52.07 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 52.07 149.606 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f90288a-2c70-42e8-986d-cc98cf60a51d")
-		)
-		(instances
-			(project "adbq-usb-temp"
-				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
-					(reference "#PWR047")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 257.81 71.12 0)
 		(unit 1)
@@ -19440,7 +19569,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 62.23 135.89 270)
+		(at 64.77 135.89 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19450,7 +19579,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc36707b-5dd9-4abb-a4a4-3b3761437f23")
 		(property "Reference" "#PWR044"
-			(at 58.42 135.89 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19459,7 +19588,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 66.04 135.8899 90)
+			(at 68.58 135.8899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19468,7 +19597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19477,7 +19606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19486,7 +19615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 62.23 135.89 0)
+			(at 64.77 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
