@@ -288,13 +288,13 @@
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 3, 17)",
-        "priority": 8,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "RF",
         "pcb_color": "rgb(255, 231, 6)",
-        "priority": 7,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -307,12 +307,6 @@
         "name": "SPI_FLASH",
         "pcb_color": "rgb(255, 153, 0)",
         "priority": 1,
-        "schematic_color": "rgba(0, 0, 0, 0.000)"
-      },
-      {
-        "name": "UART",
-        "pcb_color": "rgb(22, 5, 255)",
-        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -347,20 +341,12 @@
         "pattern": "+*"
       },
       {
-        "netclass": "UART",
-        "pattern": "/U0*"
-      },
-      {
         "netclass": "RF",
         "pattern": "/RF*"
       },
       {
         "netclass": "USB",
         "pattern": "/ESP_D*"
-      },
-      {
-        "netclass": "PWR",
-        "pattern": "VBUS"
       },
       {
         "netclass": "I2C",
@@ -372,7 +358,11 @@
       },
       {
         "netclass": "USB",
-        "pattern": "/D*"
+        "pattern": "/D+"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/D-"
       }
     ]
   },

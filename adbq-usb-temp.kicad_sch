@@ -5568,10 +5568,6 @@
 		(uuid "0fa1a6b8-6a05-43cb-a4a5-dedfa19034d9")
 	)
 	(no_connect
-		(at 232.41 113.03)
-		(uuid "1330f817-c44e-4751-9498-912d722e2c14")
-	)
-	(no_connect
 		(at 166.37 87.63)
 		(uuid "192c5e2b-8264-47a2-9750-09eb61acc62a")
 	)
@@ -5642,10 +5638,6 @@
 	(no_connect
 		(at 166.37 72.39)
 		(uuid "ad723c20-a4f8-420a-8514-8963b628f704")
-	)
-	(no_connect
-		(at 232.41 110.49)
-		(uuid "c8540611-4522-403f-acdd-b296b6696f63")
 	)
 	(no_connect
 		(at 232.41 115.57)
@@ -7511,6 +7503,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 113.03) (xy 250.19 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceb4d473-ac7b-46e3-a7f5-0ba7b7c20e4d")
+	)
+	(wire
+		(pts
 			(xy 49.53 73.66) (xy 49.53 72.39)
 		)
 		(stroke
@@ -7798,6 +7800,16 @@
 			(type default)
 		)
 		(uuid "e712b229-8ed9-40b1-b7be-3c2ec8ff9480")
+	)
+	(wire
+		(pts
+			(xy 232.41 110.49) (xy 250.19 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7874e85-c293-45c5-864f-10466f647da1")
 	)
 	(wire
 		(pts
@@ -8169,6 +8181,16 @@
 		)
 		(uuid "4fd482ed-85a9-4243-8584-535b5c08c2b6")
 	)
+	(label "TMP117_ALERT"
+		(at 250.19 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "57354711-ccc2-4f2a-b958-cb58afbd3f6a")
+	)
 	(label "SDA"
 		(at 17.78 80.01 0)
 		(effects
@@ -8228,6 +8250,16 @@
 			(justify left bottom)
 		)
 		(uuid "8061afed-15c2-43cc-9922-2c7886258d42")
+	)
+	(label "TMP117_ALERT_2"
+		(at 250.19 110.49 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8cb539d6-fdb1-425f-9381-5843350e028c")
 	)
 	(label "DIG1"
 		(at 88.9 124.46 180)
@@ -8299,7 +8331,7 @@
 		)
 		(uuid "b7eb5859-71cb-45be-9957-8a974084f63b")
 	)
-	(label "TMP117_ALERT"
+	(label "TMP117_ALERT_2"
 		(at 54.61 80.01 270)
 		(effects
 			(font
