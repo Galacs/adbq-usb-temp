@@ -5,6 +5,113 @@
 	(uuid "683f6451-7bb7-4686-955a-dbaefe964302")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -4463,6 +4570,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 100.33) (xy 265.43 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24a671bd-a906-4aa4-9020-303d0851c06f")
+	)
+	(wire
+		(pts
 			(xy 53.34 151.13) (xy 53.34 152.4)
 		)
 		(stroke
@@ -4500,6 +4617,16 @@
 			(type default)
 		)
 		(uuid "2d4a706c-4295-426e-8f76-152323f96870")
+	)
+	(wire
+		(pts
+			(xy 252.73 97.79) (xy 255.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d66727a-00df-4fcd-94a1-25840bb179a2")
 	)
 	(wire
 		(pts
@@ -4983,6 +5110,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 100.33) (xy 255.27 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cdb2978-06dd-49cb-a809-cb51d95ef0ab")
+	)
+	(wire
+		(pts
 			(xy 52.07 140.97) (xy 52.07 143.51)
 		)
 		(stroke
@@ -5093,6 +5230,16 @@
 	)
 	(wire
 		(pts
+			(xy 262.89 97.79) (xy 265.43 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89199b2c-5273-408d-88a1-7b7c8a392374")
+	)
+	(wire
+		(pts
 			(xy 157.48 52.07) (xy 162.56 52.07)
 		)
 		(stroke
@@ -5170,6 +5317,16 @@
 			(type default)
 		)
 		(uuid "9bc56ef1-26d4-47bb-88d2-1067e2a46233")
+	)
+	(wire
+		(pts
+			(xy 262.89 95.25) (xy 265.43 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c0bd228-fd3e-44f0-9138-7cf13084ce70")
 	)
 	(wire
 		(pts
@@ -5510,6 +5667,16 @@
 			(type default)
 		)
 		(uuid "c841bb56-dd1d-461d-ab8f-9827467a2c6e")
+	)
+	(wire
+		(pts
+			(xy 252.73 95.25) (xy 255.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8fcb01b-1054-4e55-ab23-fc6411bef269")
 	)
 	(wire
 		(pts
@@ -6878,6 +7045,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 97.79 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0e4d413a-980e-4aac-af54-e3ebdedb07eb")
+		(property "Reference" "SW3"
+			(at 270.51 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b37736d-ef1e-46d4-8ad6-a394daa28f8b")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Pers:TPS6282x")
 		(at 111.76 154.94 0)
 		(unit 1)
@@ -7729,6 +7963,73 @@
 			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 95.25 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "378c5155-ec98-44fb-b023-3ed428ab385d")
+		(property "Reference" "SW4"
+			(at 270.51 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 96.5199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7c605709-8d30-4e2b-bc41-eac77d925ef0")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -10113,6 +10414,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 259.08 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8bfd51b0-4663-47d9-924c-437375b97759")
+		(property "Reference" "R8"
+			(at 259.08 102.362 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 259.08 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 102.108 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9ee34f0e-29a8-4eed-9fb5-17a7189ec5bf")
+		)
+		(pin "1"
+			(uuid "918cc99b-34fb-4a6e-b39e-fb54f18ac923")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 173.99 27.94 0)
 		(unit 1)
@@ -10987,6 +11355,141 @@
 			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 265.43 100.33 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9cf65d63-063d-4935-94b9-67def4a1f0bc")
+		(property "Reference" "SW2"
+			(at 270.51 100.33 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 270.51 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 265.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "804a7d42-f955-4346-8f32-d5bbc0270fce")
+		)
+		(instances
+			(project ""
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 95.25 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d1435aa-86f1-4c9f-b27a-0bb89c6e9b09")
+		(property "Reference" "R6"
+			(at 259.08 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 259.08 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 93.472 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ddfa16bd-9f9f-42e8-83b1-8a1765023b2d")
+		)
+		(pin "1"
+			(uuid "92de098f-6570-4423-a622-3ceb82ded7e5")
+		)
+		(instances
+			(project ""
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -13155,6 +13658,74 @@
 			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 259.08 97.79 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f204c223-271c-4cc2-942c-c33269594f72")
+		(property "Reference" "R7"
+			(at 263.144 96.774 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "510"
+			(at 259.08 97.79 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 96.012 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59eacac3-d070-4332-81fd-43184364ae2c")
+		)
+		(pin "1"
+			(uuid "ddaed7d4-57bb-4667-99ee-21cf3318c4c6")
+		)
+		(instances
+			(project "adbq-usb-temp"
+				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
+					(reference "R7")
 					(unit 1)
 				)
 			)
