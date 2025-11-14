@@ -5605,10 +5605,6 @@
 		(uuid "fbf080d4-aa19-4e83-bf70-3c136992e856")
 	)
 	(no_connect
-		(at 232.41 95.25)
-		(uuid "0c4653aa-6d8e-4d7c-95e5-e2aa66b5228b")
-	)
-	(no_connect
 		(at 166.37 92.71)
 		(uuid "0f60592f-d980-406b-9a82-ab5424792057")
 	)
@@ -5649,10 +5645,6 @@
 		(uuid "4afd7294-9a14-46cc-9409-01323be4fda5")
 	)
 	(no_connect
-		(at 232.41 97.79)
-		(uuid "4f33821b-647e-461b-b147-a37b81831ae5")
-	)
-	(no_connect
 		(at 166.37 123.19)
 		(uuid "5182610b-0f11-4257-b6e3-ddcd38b57670")
 	)
@@ -5689,8 +5681,16 @@
 		(uuid "ad723c20-a4f8-420a-8514-8963b628f704")
 	)
 	(no_connect
+		(at 232.41 90.17)
+		(uuid "c74ca783-e21e-4ece-b902-f4569542fda5")
+	)
+	(no_connect
 		(at 232.41 115.57)
 		(uuid "ce712446-8bdf-409a-8f54-296a23eb2bc8")
+	)
+	(no_connect
+		(at 232.41 87.63)
+		(uuid "d86e22bb-740c-4461-b9ff-7404d4301656")
 	)
 	(no_connect
 		(at 166.37 125.73)
@@ -6022,6 +6022,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 95.25) (xy 234.95 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "241fb9bd-e8b0-4c86-906c-04d4b1766ddf")
+	)
+	(wire
+		(pts
 			(xy 242.57 92.71) (xy 245.11 92.71)
 		)
 		(stroke
@@ -6079,16 +6089,6 @@
 			(type default)
 		)
 		(uuid "2d4a706c-4295-426e-8f76-152323f96870")
-	)
-	(wire
-		(pts
-			(xy 232.41 90.17) (xy 234.95 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d66727a-00df-4fcd-94a1-25840bb179a2")
 	)
 	(wire
 		(pts
@@ -6429,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "54227341-86ee-4f4a-a77f-585c21e4422d")
+	)
+	(wire
+		(pts
+			(xy 242.57 97.79) (xy 245.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55939a54-bd4b-41e2-9f0b-0fc1988430aa")
 	)
 	(wire
 		(pts
@@ -6872,16 +6882,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 90.17) (xy 245.11 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89199b2c-5273-408d-88a1-7b7c8a392374")
-	)
-	(wire
-		(pts
 			(xy 137.16 44.45) (xy 142.24 44.45)
 		)
 		(stroke
@@ -7029,16 +7029,6 @@
 			(type default)
 		)
 		(uuid "9bccad4d-60b3-47b7-9a7c-d34afa7e71b4")
-	)
-	(wire
-		(pts
-			(xy 242.57 87.63) (xy 245.11 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0bd228-fd3e-44f0-9138-7cf13084ce70")
 	)
 	(wire
 		(pts
@@ -7402,6 +7392,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 95.25) (xy 245.11 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c170e3e5-a8d3-4049-abf2-8e24e8c50cd2")
+	)
+	(wire
+		(pts
 			(xy 36.83 185.42) (xy 36.83 186.69)
 		)
 		(stroke
@@ -7502,16 +7502,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 87.63) (xy 234.95 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8fcb01b-1054-4e55-ab23-fc6411bef269")
-	)
-	(wire
-		(pts
 			(xy 243.84 77.47) (xy 243.84 82.55)
 		)
 		(stroke
@@ -7609,6 +7599,16 @@
 			(type default)
 		)
 		(uuid "cfdeed32-56a0-4bb7-a1c2-fe220e8a6302")
+	)
+	(wire
+		(pts
+			(xy 232.41 97.79) (xy 234.95 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27ced44-d12d-4414-af0c-4de4f02c0d88")
 	)
 	(wire
 		(pts
@@ -9539,7 +9539,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 90.17 270)
+		(at 245.11 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9547,7 +9547,7 @@
 		(dnp no)
 		(uuid "0e4d413a-980e-4aac-af54-e3ebdedb07eb")
 		(property "Reference" "SW3"
-			(at 250.19 90.17 90)
+			(at 250.19 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9556,7 +9556,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 91.4399 90)
+			(at 250.19 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9566,7 +9566,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 245.11 95.25 0)
+			(at 245.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9575,7 +9575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 95.25 0)
+			(at 245.11 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9584,7 +9584,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 90.17 0)
+			(at 245.11 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10683,7 +10683,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 87.63 270)
+		(at 245.11 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10691,7 +10691,7 @@
 		(dnp no)
 		(uuid "378c5155-ec98-44fb-b023-3ed428ab385d")
 		(property "Reference" "SW4"
-			(at 250.19 87.63 90)
+			(at 250.19 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10700,7 +10700,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 88.8999 90)
+			(at 250.19 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10710,7 +10710,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 245.11 92.71 0)
+			(at 245.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10719,7 +10719,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 92.71 0)
+			(at 245.11 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10728,7 +10728,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 87.63 0)
+			(at 245.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14484,7 +14484,7 @@
 		(dnp no)
 		(uuid "8bfd51b0-4663-47d9-924c-437375b97759")
 		(property "Reference" "R8"
-			(at 238.76 94.742 90)
+			(at 242.824 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15732,7 +15732,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 87.63 90)
+		(at 238.76 97.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15741,7 +15741,7 @@
 		(dnp no)
 		(uuid "9d1435aa-86f1-4c9f-b27a-0bb89c6e9b09")
 		(property "Reference" "R6"
-			(at 238.76 85.598 90)
+			(at 242.57 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15749,7 +15749,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 238.76 87.63 90)
+			(at 238.76 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 85.852 90)
+			(at 238.76 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 87.63 0)
+			(at 238.76 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15775,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 87.63 0)
+			(at 238.76 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15784,7 +15784,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 238.76 87.63 90)
+			(at 238.76 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15793,7 +15793,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25123"
-			(at 238.76 87.63 90)
+			(at 238.76 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15802,7 +15802,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 238.76 87.63 90)
+			(at 238.76 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15811,7 +15811,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5100TCE"
-			(at 238.76 87.63 90)
+			(at 238.76 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15826,7 +15826,7 @@
 			(uuid "92de098f-6570-4423-a622-3ceb82ded7e5")
 		)
 		(instances
-			(project ""
+			(project "adbq-usb-temp"
 				(path "/683f6451-7bb7-4686-955a-dbaefe964302"
 					(reference "R6")
 					(unit 1)
@@ -19018,7 +19018,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 90.17 90)
+		(at 238.76 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19027,7 +19027,7 @@
 		(dnp no)
 		(uuid "f204c223-271c-4cc2-942c-c33269594f72")
 		(property "Reference" "R7"
-			(at 242.824 89.154 90)
+			(at 242.824 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19035,7 +19035,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 238.76 90.17 90)
+			(at 238.76 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19043,7 +19043,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 88.392 90)
+			(at 238.76 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19052,7 +19052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 90.17 0)
+			(at 238.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19061,7 +19061,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 90.17 0)
+			(at 238.76 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19070,7 +19070,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 238.76 90.17 90)
+			(at 238.76 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19079,7 +19079,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25123"
-			(at 238.76 90.17 90)
+			(at 238.76 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19088,7 +19088,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 238.76 90.17 90)
+			(at 238.76 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19097,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5100TCE"
-			(at 238.76 90.17 90)
+			(at 238.76 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
