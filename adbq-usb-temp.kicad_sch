@@ -8348,7 +8348,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8d9fdf91-24df-4e02-872d-a21952255284")
+		(uuid "8d9fdf91-24df-4e02-872d-a21952255285")
 	)
 	(label "DIG3"
 		(at 118.11 124.46 180)
@@ -8358,7 +8358,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8d9fdf91-24df-4e02-872d-a21952255284")
+		(uuid "8d9fdf91-24df-4e02-872d-a21952255286")
 	)
 	(label "RF_ANT"
 		(at 115.57 44.45 0)
@@ -11211,7 +11211,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 156.21 0)
 			(effects
 				(font
@@ -11247,7 +11247,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C15525"
+		(property "JLCPCB Part #" "C19702"
 			(at 93.98 152.4 0)
 			(effects
 				(font
@@ -11265,7 +11265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05A106MQ5NUNC"
+		(property "Manufacturer Part Number" "CL10A106KP8NNNC"
 			(at 93.98 152.4 0)
 			(effects
 				(font
