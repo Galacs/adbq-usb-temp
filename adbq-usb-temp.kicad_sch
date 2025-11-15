@@ -2513,14 +2513,14 @@
 				(pin bidirectional line
 					(at -33.02 -27.94 0)
 					(length 2.54)
-					(name "SPI_CS1/GPIO26"
+					(name "GPIO18/ADC2_CH7"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "28"
+					(number "24"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3091,14 +3091,14 @@
 				(pin bidirectional line
 					(at 33.02 -20.32 180)
 					(length 2.54)
-					(name "GPIO18/ADC2_CH7"
+					(name "SPI_CS1/GPIO26"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "24"
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5661,10 +5661,6 @@
 		(uuid "2de73c4b-3ddf-4f40-b5f1-db3a619866c3")
 	)
 	(no_connect
-		(at 232.41 118.11)
-		(uuid "362b522c-7846-498a-bb65-d2c9c07146dc")
-	)
-	(no_connect
 		(at 232.41 74.93)
 		(uuid "389fa1d4-62a1-407f-8211-aa6d1d66e06d")
 	)
@@ -5731,6 +5727,10 @@
 	(no_connect
 		(at 166.37 125.73)
 		(uuid "dfc1ff1e-0e61-4c7a-99b2-e47e0c444347")
+	)
+	(no_connect
+		(at 232.41 110.49)
+		(uuid "ead1511a-923a-4757-8423-056fbacec750")
 	)
 	(no_connect
 		(at 166.37 90.17)
@@ -7158,6 +7158,16 @@
 	)
 	(wire
 		(pts
+			(xy 232.41 118.11) (xy 250.19 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1de75da-6e68-4f80-b78f-55d012d1d1ec")
+	)
+	(wire
+		(pts
 			(xy 172.72 38.1) (xy 182.88 38.1)
 		)
 		(stroke
@@ -7908,16 +7918,6 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 110.49) (xy 250.19 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e7874e85-c293-45c5-864f-10466f647da1")
-	)
-	(wire
-		(pts
 			(xy 53.34 151.13) (xy 73.66 151.13)
 		)
 		(stroke
@@ -8356,16 +8356,6 @@
 		)
 		(uuid "8061afed-15c2-43cc-9922-2c7886258d42")
 	)
-	(label "TMP117_ALERT_2"
-		(at 250.19 110.49 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8cb539d6-fdb1-425f-9381-5843350e028c")
-	)
 	(label "DIG1"
 		(at 88.9 124.46 180)
 		(effects
@@ -8525,6 +8515,16 @@
 			(justify right bottom)
 		)
 		(uuid "f4e0d8a9-88c4-48bc-a7d3-0f3d60e6cd7f")
+	)
+	(label "TMP117_ALERT_2"
+		(at 250.19 118.11 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f83ba945-69a4-4115-9ff3-0e41da17a4b2")
 	)
 	(label "SCL"
 		(at 237.49 77.47 180)
@@ -16672,7 +16672,7 @@
 		(dnp no)
 		(uuid "ac9747c4-557b-4d47-8955-d2229e15c178")
 		(property "Reference" "JP1"
-			(at 240.03 118.872 0)
+			(at 240.03 119.888 0)
 			(effects
 				(font
 					(size 1.27 1.27)
