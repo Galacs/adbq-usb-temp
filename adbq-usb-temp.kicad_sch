@@ -8942,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -8960,7 +8960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 55.88 74.93 0)
 			(effects
 				(font
@@ -9151,7 +9151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF5101T5E"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
 			(at 46.99 143.51 90)
 			(effects
 				(font
@@ -9169,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23186"
+		(property "JLCPCB Part #" "C25905"
 			(at 46.99 143.51 90)
 			(effects
 				(font
@@ -11882,7 +11882,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF5101T5E"
+		(property "Manufacturer Part Number" "0402WGF5101TCE"
 			(at 46.99 140.97 90)
 			(effects
 				(font
@@ -11900,7 +11900,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C23186"
+		(property "JLCPCB Part #" "C25905"
 			(at 46.99 140.97 90)
 			(effects
 				(font
@@ -12089,7 +12089,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 247.65 129.54 0)
 			(effects
 				(font
@@ -12107,7 +12107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 247.65 129.54 0)
 			(effects
 				(font
@@ -12634,7 +12634,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 146.05 64.77 90)
 			(effects
 				(font
@@ -12652,7 +12652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 146.05 64.77 90)
 			(effects
 				(font
@@ -15188,7 +15188,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -15206,7 +15206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 55.88 29.21 0)
 			(effects
 				(font
@@ -18798,7 +18798,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C25804"
+		(property "JLCPCB Part #" "C25744"
 			(at 241.3 72.39 90)
 			(effects
 				(font
@@ -18816,7 +18816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "0603WAF1002T5E"
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
 			(at 241.3 72.39 90)
 			(effects
 				(font
