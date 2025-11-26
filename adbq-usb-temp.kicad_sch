@@ -4085,14 +4085,14 @@
 				(pin output line
 					(at -7.62 -5.08 0)
 					(length 2.54)
-					(name "DIG1"
+					(name "DIG3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "12"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4121,14 +4121,14 @@
 				(pin output line
 					(at -7.62 -10.16 0)
 					(length 2.54)
-					(name "DIG3"
+					(name "DIG1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6058,7 +6058,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 95.25) (xy 234.95 95.25)
+			(xy 232.41 95.25) (xy 238.76 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6068,7 +6068,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 92.71) (xy 245.11 92.71)
+			(xy 246.38 92.71) (xy 248.92 92.71)
 		)
 		(stroke
 			(width 0)
@@ -6458,7 +6458,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 97.79) (xy 245.11 97.79)
+			(xy 246.38 97.79) (xy 248.92 97.79)
 		)
 		(stroke
 			(width 0)
@@ -6788,7 +6788,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 92.71) (xy 234.95 92.71)
+			(xy 232.41 92.71) (xy 238.76 92.71)
 		)
 		(stroke
 			(width 0)
@@ -7478,7 +7478,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 95.25) (xy 245.11 95.25)
+			(xy 246.38 95.25) (xy 248.92 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7688,7 +7688,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 97.79) (xy 234.95 97.79)
+			(xy 232.41 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -9605,7 +9605,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 95.25 270)
+		(at 248.92 95.25 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -9613,7 +9613,7 @@
 		(dnp no)
 		(uuid "0e4d413a-980e-4aac-af54-e3ebdedb07eb")
 		(property "Reference" "SW3"
-			(at 250.19 95.25 90)
+			(at 254 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,7 +9622,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 96.5199 90)
+			(at 254 96.5199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9632,7 +9632,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 245.11 100.33 0)
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9641,7 +9641,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 100.33 0)
+			(at 248.92 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9650,7 +9650,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 95.25 0)
+			(at 248.92 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10814,7 +10814,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 97.79 270)
+		(at 248.92 97.79 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -10822,7 +10822,7 @@
 		(dnp no)
 		(uuid "378c5155-ec98-44fb-b023-3ed428ab385d")
 		(property "Reference" "SW4"
-			(at 250.19 97.79 90)
+			(at 254 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10831,7 +10831,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 99.0599 90)
+			(at 254 99.0599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10841,7 +10841,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 245.11 102.87 0)
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10850,7 +10850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 102.87 0)
+			(at 248.92 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10859,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 97.79 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14541,7 +14541,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 92.71 90)
+		(at 242.57 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14549,7 +14549,7 @@
 		(dnp no)
 		(uuid "8bfd51b0-4663-47d9-924c-437375b97759")
 		(property "Reference" "R8"
-			(at 242.824 91.948 90)
+			(at 246.634 91.948 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14557,7 +14557,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 238.76 92.71 90)
+			(at 242.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14565,7 +14565,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 94.488 90)
+			(at 242.57 94.488 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14574,7 +14574,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14583,7 +14583,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 92.71 0)
+			(at 242.57 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,7 +14592,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 238.76 92.71 90)
+			(at 242.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14601,7 +14601,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25123"
-			(at 238.76 92.71 90)
+			(at 242.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14610,7 +14610,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 238.76 92.71 90)
+			(at 242.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14619,7 +14619,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5100TCE"
-			(at 238.76 92.71 90)
+			(at 242.57 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15730,7 +15730,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 245.11 92.71 270)
+		(at 248.92 92.71 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -15738,7 +15738,7 @@
 		(dnp no)
 		(uuid "9cf65d63-063d-4935-94b9-67def4a1f0bc")
 		(property "Reference" "SW2"
-			(at 250.19 92.71 90)
+			(at 254 92.71 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15747,7 +15747,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 250.19 93.9799 90)
+			(at 254 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15757,7 +15757,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 245.11 97.79 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15766,7 +15766,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 245.11 97.79 0)
+			(at 248.92 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15775,7 +15775,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 245.11 92.71 0)
+			(at 248.92 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15797,7 +15797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 97.79 90)
+		(at 242.57 97.79 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15806,7 +15806,7 @@
 		(dnp no)
 		(uuid "9d1435aa-86f1-4c9f-b27a-0bb89c6e9b09")
 		(property "Reference" "R6"
-			(at 242.57 97.028 90)
+			(at 246.38 97.028 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15814,7 +15814,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 238.76 97.79 90)
+			(at 242.57 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15822,7 +15822,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 96.012 90)
+			(at 242.57 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15831,7 +15831,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 97.79 0)
+			(at 242.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15840,7 +15840,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 97.79 0)
+			(at 242.57 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15849,7 +15849,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 238.76 97.79 90)
+			(at 242.57 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15858,7 +15858,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25123"
-			(at 238.76 97.79 90)
+			(at 242.57 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15867,7 +15867,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 238.76 97.79 90)
+			(at 242.57 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15876,7 +15876,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5100TCE"
-			(at 238.76 97.79 90)
+			(at 242.57 97.79 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19080,7 +19080,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 238.76 95.25 90)
+		(at 242.57 95.25 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19089,7 +19089,7 @@
 		(dnp no)
 		(uuid "f204c223-271c-4cc2-942c-c33269594f72")
 		(property "Reference" "R7"
-			(at 242.824 94.234 90)
+			(at 246.634 94.234 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19097,7 +19097,7 @@
 			)
 		)
 		(property "Value" "510"
-			(at 238.76 95.25 90)
+			(at 242.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19105,7 +19105,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 238.76 93.472 90)
+			(at 242.57 93.472 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19114,7 +19114,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 238.76 95.25 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19123,7 +19123,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 238.76 95.25 0)
+			(at 242.57 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19132,7 +19132,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 238.76 95.25 90)
+			(at 242.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19141,7 +19141,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C25123"
-			(at 238.76 95.25 90)
+			(at 242.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19150,7 +19150,7 @@
 			)
 		)
 		(property "Manufacturer" "Uniroyal Elec"
-			(at 238.76 95.25 90)
+			(at 242.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19159,7 +19159,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "0402WGF5100TCE"
-			(at 238.76 95.25 90)
+			(at 242.57 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
