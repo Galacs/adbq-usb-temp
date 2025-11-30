@@ -12,4 +12,8 @@ ESP32-S3 based temperature USB-C compact sensor board made to test small step-do
 
 ## Top preview
 
+<img width="1604" height="661" alt="image" src="https://github.com/user-attachments/assets/44fbf249-eb43-48ed-97ef-f798427fe99e" />
+
 ## Preview 3d render
+
+<img width="1216" height="741" alt="image" src="https://github.com/user-attachments/assets/d0e60937-bca8-4652-8e18-9961c517ac1f" />
